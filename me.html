@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ME</title>
+	<style>
+		 body{
+			height: 100%;
+    		background: linear-gradient(to right, #afa4e4 , #eb9fd2);
+		}
+		#whole{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+			background-image: url("https://66.media.tumblr.com/1babec1fe649ca1695a480b2b6485071/tumblr_o0fn984zbA1twrbr9o1_540.gif");
+			opacity: .1;
+			display: block;
+		}
+		a{
+			text-decoration: none;
+			color: #52468f;
+		}
+		a:active{
+			color: none;
+		}
+		a:hover{
+			color: #9e4280;
+		}
+		a:visited{
+			color: none;
+		}
+		#me{
+			font-size: 240px;
+			font-family: Georgia, serif;
+			position: relative;
+            margin-top: 10%;
+            transform: translateY(-50%);
+			float: left;
+			color: #52468f;
+    		width: auto;
+    		height: 200px;
+			position: absolute;
+   			animation-name: me;
+    		animation-duration: 15s;
+   			animation-iteration-count: infinite;
+		}
+
+		@keyframes me {
+    		0%   {left:0px; }
+
+    		50%  {left:80%; }
+
+    		100% {left:0px; }
+		}
+</style>
+</head>
+<body>
+	
+	<div id = whole></div>
+	<div id = me><a href = "index.html">me</a></div>
+
+</body>
+</html>
