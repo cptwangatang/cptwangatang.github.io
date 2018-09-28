@@ -2,4 +2,4 @@
 
 A net art exploration on just what love means; spiritually, interpersonally, and stupidly.
 <br><br> 
-https://whatislove.github.io/
+https://space.whatislove.github.io/
